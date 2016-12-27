@@ -7,5 +7,6 @@ setup(name='MFRC522-python',
       description='A small class to interface with the NFC reader Module MFRC522 on the Raspberry Pi',
       author='mxgxw',
       author_email='mxgxw@example.com',
+      packages=['MFRC522'],
       dependency_links=['https://github.com/lthiery/SPI-Py.git@master']
      )
